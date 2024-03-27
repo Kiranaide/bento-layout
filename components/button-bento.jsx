@@ -3,9 +3,9 @@ import ArrowRight from "@/public/arrow-right.svg";
 
 export default function ButtonBento() {
   return (
-    <button className="border p-4 flex justify-between gap-4 items-center rounded-md w-full">
+    <button className="border p-4 flex justify-between gap-4 items-center rounded-md size-full">
       More Recipe
-      <span>
+      <span className="hidden lg:block">
         <Image
           src={ArrowRight}
           alt="Arrow Right SVG"

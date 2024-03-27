@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${inter.className} mx-16 py-8 flex flex-col gap-4 h-screen`}>
+        className={`${inter.className} mx-4 sm:mx-8 lg:mx-16 py-8 flex flex-col gap-4 h-screen`}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
